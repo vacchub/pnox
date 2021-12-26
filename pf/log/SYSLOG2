@@ -1,0 +1,159 @@
+[04/28 18:29:09] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/28 18:29:09] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/28 18:29:09] [pnoxd] pnoxd pid[1854]
+[04/28 18:29:09] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/28 18:29:09] [pxmon] pxmon create
+[04/28 18:29:09] [pnoxd] pxmon_init start
+[04/28 18:29:09] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/28 18:29:09] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/28 18:29:09] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/28 18:29:09] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/28 18:29:09] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/28 18:29:09] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/28 18:29:09] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[1855]
+[04/28 18:29:09] [pnoxsgw] pnoxsgw start
+[04/28 18:29:09] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[1856]
+[04/28 18:29:09] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[1857]
+[04/28 18:29:09] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[1858]
+[04/28 18:29:09] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[1859]
+[04/28 18:29:09] [pnoxd] pxmon init [2020/04/28 18:29:09] nprc[5]
+[04/28 18:29:09] [pnoxtpc] pnoxtpc start
+[04/28 18:29:09] [tpsmain] tpsmain start
+[04/28 18:29:09] [pnoxrtc] pnoxrtc start
+[04/28 18:33:51] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:34:47] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:34:52] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:34:56] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:35:59] [pxclose] pxclose call[tpsmtalk] name[u0000001]
+[04/28 18:36:00] [pxclose] pxclose call[mtalk002] name[u0000002]
+[04/28 18:39:15] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:39:19] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:39:51] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:39:56] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:39:58] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:40:00] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:40:03] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:40:05] [pxclose] pxclose call[mtalk010] name[u0000003]
+[04/28 18:40:05] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:40:14] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:40:14] [pxclose] pxclose call[tpsmtalk] name[u0000004]
+[04/28 18:40:20] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:40:22] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:40:25] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:40:26] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:40:26] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:40:27] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:40:28] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:40:30] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:40:33] [pxclose] pxclose call[tpsmtalk] name[u0000005]
+[04/28 18:40:33] [tpsmain] tpsmain error -15 2
+[04/28 18:40:33] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000005]
+[04/28 18:40:33] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:40:47] [pxclose] pxclose call[tpsmtalk] name[u0000007]
+[04/28 18:40:47] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:40:47] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000007]
+[04/28 18:40:47] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000007]
+[04/28 18:40:49] [pxclose] pxclose call[tpsmtalk] name[u0000006]
+[04/28 18:40:49] [tpsmain] tpsmain error -15 2
+[04/28 18:40:49] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000007]
+[04/28 18:40:49] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:40:53] [pxclose] pxclose call[tpsmtalk] name[u0000008]
+[04/28 18:40:53] [tpsmain] tpsmain error -15 2
+[04/28 18:40:53] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000007]
+[04/28 18:40:53] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000008]
+[04/28 18:40:53] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:40:55] [pxclose] pxclose call[tpsmtalk] name[u0000009]
+[04/28 18:40:55] [tpsmain] tpsmain error -15 2
+[04/28 18:40:55] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000009]
+[04/28 18:41:04] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000009]
+[04/28 18:41:04] [pxclose] pxclose call[tpsmtalk] name[u0000010]
+[04/28 18:44:45] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:47:01] [pxclose] pxclose call[tpsmtalk] name[u0000011]
+[04/28 18:47:20] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:47:20] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000011]
+[04/28 18:47:20] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000011]
+[04/28 18:47:23] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000011]
+[04/28 18:47:23] [pxclose] pxclose call[tpsmtalk] name[u0000012]
+[04/28 18:47:23] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:47:59] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000012]
+[04/28 18:47:59] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:48:07] [pnoxsca] pnoxsca format error[00 00]
+[04/28 18:48:07] [pxclose] pxclose call[mtalk010] name[u0000013]
+[04/28 18:48:09] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000013]
+[04/28 18:48:09] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:48:12] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000013]
+[04/28 18:48:12] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:48:14] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000013]
+[04/28 18:48:14] [pxclose] pxclose call[tpsmtalk] name[u0000014]
+[04/28 18:48:14] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:48:19] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000014]
+[04/28 18:48:19] [pxclose] pxclose call[tpsmtalk] name[u0000015]
+[04/28 18:48:19] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:48:19] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000015]
+[04/28 18:48:19] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000015]
+[04/28 18:48:32] [pxclose] pxclose call[tpsmtalk] name[u0000016]
+[04/28 18:49:18] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:49:22] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:49:26] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:49:42] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:49:51] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:49:53] [pxclose] pxclose call[tpsmtalk] name[u0000018]
+[04/28 18:49:53] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:50:06] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000018]
+[04/28 18:50:06] [pxclose] pxclose call[tpsmtalk] name[u0000017]
+[04/28 18:50:06] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:50:06] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000018]
+[04/28 18:50:06] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000018]
+[04/28 18:50:11] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000018]
+[04/28 18:50:11] [pxclose] pxclose call[tpsmtalk] name[u0000019]
+[04/28 18:50:11] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:50:18] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:50:18] [pxclose] pxclose call[tpsmtalk] name[u0000021]
+[04/28 18:50:18] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000021]
+[04/28 18:50:18] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000021]
+[04/28 18:50:24] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000021]
+[04/28 18:50:24] [pxclose] pxclose call[tpsmtalk] name[u0000022]
+[04/28 18:50:24] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:50:27] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000022]
+[04/28 18:50:27] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:50:27] [pxclose] pxclose call[tpsmtalk] name[u0000020]
+[04/28 18:50:27] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000022]
+[04/28 18:50:27] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000022]
+[04/28 18:50:31] [pxclose] pxclose call[tpsmtalk] name[u0000023]
+[04/28 18:50:31] [tpsmain] tpsmain error -15 2
+[04/28 18:50:31] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000023]
+[04/28 18:50:31] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000022]
+[04/28 18:50:31] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:50:32] [pxclose] pxclose call[tpsmtalk] name[u0000024]
+[04/28 18:50:32] [tpsmain] tpsmain error -15 2
+[04/28 18:50:32] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000024]
+[04/28 18:50:32] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:50:34] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:50:38] [pxclose] pxclose call[mtalk002] name[u0000025]
+[04/28 18:50:52] [pxclose] pxclose call[tpsmtalk] name[u0000026]
+[04/28 18:51:05] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:51:11] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:51:16] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:51:21] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:51:24] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:51:27] [pxclose] pxclose call[tpsmtalk] name[u0000027]
+[04/28 18:51:40] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000027]
+[04/28 18:51:40] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:51:43] [pnoxsca] pnoxsca format error[00 00]
+[04/28 18:51:43] [pxclose] pxclose call[mtalk010] name[u0000028]
+[04/28 18:51:48] [pnoxsgw] pnoxsgw exec_sca start
+[04/28 18:51:50] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:51:55] [pxclose] pxclose call[mtalk002] name[mtalk002]
+[04/28 18:51:57] [pxclose] pxclose call[tpsmtalk] name[u0000030]
+[04/28 18:51:58] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000030]
+[04/28 18:51:58] [pxclose] pxclose call[tpsmtalk] name[u0000029]
+[04/28 18:52:18] [pxmon] pxmon ipc rm
+[04/28 18:52:18] [pnoxd] pnox end
+[04/28 18:52:19] [pnoxrtc] pnoxrtc end
+[04/28 18:52:19] [pxclose] pxclose call[] name[tpsmtalk]
+[04/28 18:52:19] [tpsmain] tpsmain end
+[04/28 18:52:19] [pxclose] pxclose call[] name[pnoxtpc]
+[04/28 18:52:19] [pnoxtpc] pnoxtpc end
+[04/28 18:52:20] [pxclose] pxclose call[mtalk010] name[mtalk010]
+[04/28 18:52:21] [pnoxtpc] pnoxtpc child end
+                                                                                          

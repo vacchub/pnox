@@ -1,0 +1,36 @@
+TARGET=LINUX
+
+AIX.C_BASE=-DAIX -D_THREAD_SAFE
+HPUX10.C_BASE=-Ae +DA1.0 -DHPUX10
+HPUX11.C_BASE=-Ae +DAportable -DHPUX11
+LINUX.C_BASE=-DLINUX -D_THREAD_SAFE -DHAVE_MSGHDR_MSG_CONTROL -fno-stack-protector -fPIC -ansi -Wall -Wno-deprecated-declarations -Wno-long-long -pedantic -std=gnu99 -g
+SUNOS.C_BASE=-DSUNOS
+
+C_BASE=$($(TARGET).C_BASE)
+
+AIX.L_BASE=
+HPUX10.L_BASE=
+HPUX11.L_BASE=
+LINUX.L_BASE=-lnsl
+SUNOS.L_BASE=-lsocket -lnsl -g -errwarn=%all -erroff=%all
+
+L_BASE=$($(TARGET).L_BASE)
+
+AIX.L_THRD=-lpthread
+HPUX10.L_THRD=-ldce
+HPUX11.L_THRD=-lpthread -ldce
+LINUX.L_THRD=-lpthread
+SUNOS.L_THRD=-lpthread
+
+L_THRD=$($(TARGET).L_THRD)
+
+MPSBLD=mpsbuild
+
+
+PNOX_HOME=/proj/pnox/pf
+
+PSRC=$(PNOX_HOME)/src
+PINC=$(PSRC)/inc
+PBIN=$(PNOX_HOME)/bin
+PCFG=$(PNOX_HOME)/cfg
+

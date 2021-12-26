@@ -1,0 +1,39 @@
+all:
+	cd lib;   make all
+	cd sys;   make all
+	cd mdl;   make all
+	cd sgw;   make all
+	cd sca;   make all
+	cd cli;   make all
+	cd rush;  make all
+	cd main;  make all
+	cd tpc;   make all
+	cd tps;   make all
+	cd rtc;   make all
+	cd rta;   make all
+install:
+	cd lib;   make install
+	cd sys;   make install
+	cd mdl;   make install
+	cd sgw;   make install
+	cd sca;   make install
+	cd cli;   make install
+	cd rush;  make install
+	cd main;  make install
+	cd tpc;   make install
+	cd tps;   make install
+	cd rtc;   make install
+	cd rta;   make install
+clean:
+	cd lib;   make clean
+	cd sys;   make clean
+	cd mdl;   make clean
+	cd sgw;   make clean
+	cd sca;   make clean
+	cd cli;   make clean
+	cd rush;  make clean
+	cd main;  make clean
+	cd tpc;   make clean
+	cd tps;   make clean
+	cd rtc;   make clean
+	cd rta;   make clean

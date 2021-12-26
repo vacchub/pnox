@@ -1,0 +1,617 @@
+[04/25 20:31:43] [pxmon] pxmon ipc rm
+[04/25 20:31:43] [pnoxd] pnox end
+[04/25 20:31:43] [pnoxrtc] pnoxrtc end
+[04/25 20:31:43] [pnoxtpc] pnoxtpc end
+[04/25 20:31:43] [tpsmain] tpsmain end
+[04/25 20:31:44] [tpsmain] tpsmain child end
+[04/25 20:31:47] [pnoxtpc] pnoxtpc child end
+[04/25 20:31:48] [tpsmain] tpsmain child end
+[04/25 20:32:01] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/25 20:32:01] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/25 20:32:01] [pnoxd] pnoxd pid[13242]
+[04/25 20:32:01] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/25 20:32:01] [pxmon] pxmon create
+[04/25 20:32:01] [pnoxd] pxmon_init start
+[04/25 20:32:01] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/25 20:32:01] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/25 20:32:01] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/25 20:32:01] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/25 20:32:01] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/25 20:32:01] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/25 20:32:01] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[13243]
+[04/25 20:32:01] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[13244]
+[04/25 20:32:01] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[13245]
+[04/25 20:32:01] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[13246]
+[04/25 20:32:01] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13247]
+[04/25 20:32:01] [pnoxd] pxmon init [2020/04/25 20:32:01] nprc[5]
+[04/25 20:32:01] [pnoxtpc] pnoxtpc start
+[04/25 20:32:01] [tpsmain] tpsmain start
+[04/25 20:32:01] [pnoxsgw] pnoxsgw start
+[04/25 20:32:01] [pnoxrtc] pnoxrtc start
+[04/25 20:32:28] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 20:32:40] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 20:32:41] [pnoxd] pnox receive SIGCHLD signal
+[04/25 20:32:46] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13263]
+[04/25 20:32:46] [pxopen] bind errno[98][Address already in use]
+[04/25 20:32:48] [pnoxd] pnox receive SIGCHLD signal
+[04/25 20:32:51] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13264]
+[04/25 20:33:04] [pxmon] pxmon ipc rm
+[04/25 20:33:04] [pnoxd] pnox end
+[04/25 20:33:04] [pnoxtpc] pnoxtpc end
+[04/25 20:33:04] [tpsmain] tpsmain end
+[04/25 20:33:04] [pnoxrtc] pnoxrtc end
+[04/25 20:33:06] [pnoxtpc] pnoxtpc child end
+[04/25 20:33:10] [tpsmain] tpsmain child end
+[04/25 20:33:13] [tpsmain] tpsmain child end
+[04/25 20:39:14] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/25 20:39:14] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/25 20:39:14] [pnoxd] pnoxd pid[13405]
+[04/25 20:39:14] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/25 20:39:14] [pxmon] pxmon create
+[04/25 20:39:14] [pnoxd] pxmon_init start
+[04/25 20:39:14] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/25 20:39:14] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/25 20:39:14] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/25 20:39:14] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/25 20:39:14] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/25 20:39:14] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/25 20:39:14] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[13406]
+[04/25 20:39:14] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[13407]
+[04/25 20:39:14] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[13408]
+[04/25 20:39:14] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[13409]
+[04/25 20:39:14] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13410]
+[04/25 20:39:14] [pnoxtpc] pnoxtpc start
+[04/25 20:39:14] [pnoxsgw] pnoxsgw start
+[04/25 20:39:14] [pnoxd] pxmon init [2020/04/25 20:39:14] nprc[5]
+[04/25 20:39:14] [pnoxrtc] pnoxrtc start
+[04/25 20:39:14] [tpsmain] tpsmain start
+[04/25 20:39:36] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 20:39:43] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 20:39:44] [pnoxd] pnox receive SIGCHLD signal
+[04/25 20:39:47] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13418]
+[04/25 20:39:47] [pxopen] bind errno[98][Address already in use]
+[04/25 20:39:49] [pnoxd] pnox receive SIGCHLD signal
+[04/25 20:39:52] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13419]
+[04/25 20:40:15] [pxmon] pxmon ipc rm
+[04/25 20:40:15] [pnoxd] pnox end
+[04/25 20:40:17] [pnoxrtc] pnoxrtc end
+[04/25 20:40:17] [pnoxtpc] pnoxtpc end
+[04/25 20:40:17] [tpsmain] tpsmain end
+[04/25 20:40:19] [pnoxtpc] pnoxtpc child end
+[04/25 20:40:19] [tpsmain] tpsmain child end
+[04/25 20:40:23] [tpsmain] tpsmain child end
+[04/25 20:52:51] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/25 20:52:51] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/25 20:52:51] [pnoxd] pnoxd pid[13478]
+[04/25 20:52:51] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/25 20:52:51] [pxmon] pxmon create
+[04/25 20:52:51] [pnoxd] pxmon_init start
+[04/25 20:52:51] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/25 20:52:51] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/25 20:52:51] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/25 20:52:51] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/25 20:52:51] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/25 20:52:51] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/25 20:52:51] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[13479]
+[04/25 20:52:51] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[13480]
+[04/25 20:52:51] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[13481]
+[04/25 20:52:51] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[13482]
+[04/25 20:52:51] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13483]
+[04/25 20:52:51] [pnoxd] pxmon init [2020/04/25 20:52:51] nprc[5]
+[04/25 20:52:51] [tpsmain] tpsmain start
+[04/25 20:52:51] [pnoxrtc] pnoxrtc start
+[04/25 20:52:51] [pnoxsgw] pnoxsgw start
+[04/25 20:52:51] [pnoxtpc] pnoxtpc start
+[04/25 20:53:13] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 20:53:25] [pxclose] pxclose [tpsmtalktpsmtalk]
+[04/25 20:53:25] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 20:53:26] [pnoxd] pnox receive SIGCHLD signal
+[04/25 20:53:29] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13491]
+[04/25 20:53:29] [pxopen] bind errno[98][Address already in use]
+[04/25 20:53:31] [pnoxd] pnox receive SIGCHLD signal
+[04/25 20:53:34] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13492]
+[04/25 20:53:42] [pxclose] pxclose [tpsmtalktpsmtalk]
+[04/25 20:54:09] [pxmon] pxmon ipc rm
+[04/25 20:54:09] [pnoxd] pnox end
+[04/25 20:54:10] [pxclose] pxclose [mtalk010]
+[04/25 20:54:12] [pxclose] pxclose []
+[04/25 20:54:12] [tpsmain] tpsmain end
+[04/25 20:54:12] [pxclose] pxclose []
+[04/25 20:54:12] [pnoxtpc] pnoxtpc end
+[04/25 20:54:12] [pnoxrtc] pnoxrtc end
+[04/25 20:54:16] [pnoxtpc] pnoxtpc child end
+[04/25 20:54:20] [tpsmain] tpsmain child end
+[04/25 20:54:21] [tpsmain] tpsmain child end
+[04/25 20:54:55] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/25 20:54:55] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/25 20:54:55] [pnoxd] pnoxd pid[13504]
+[04/25 20:54:55] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/25 20:54:55] [pxmon] pxmon create
+[04/25 20:54:55] [pnoxd] pxmon_init start
+[04/25 20:54:55] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/25 20:54:55] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/25 20:54:55] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/25 20:54:55] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/25 20:54:55] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/25 20:54:55] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/25 20:54:55] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[13505]
+[04/25 20:54:55] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[13506]
+[04/25 20:54:55] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[13507]
+[04/25 20:54:55] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[13508]
+[04/25 20:54:55] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13509]
+[04/25 20:54:55] [pnoxsgw] pnoxsgw start
+[04/25 20:54:55] [pnoxd] pxmon init [2020/04/25 20:54:55] nprc[5]
+[04/25 20:54:55] [tpsmain] tpsmain start
+[04/25 20:54:55] [pnoxrtc] pnoxrtc start
+[04/25 20:54:55] [pnoxtpc] pnoxtpc start
+[04/25 20:55:12] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 20:55:18] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 20:55:18] [pxclose] pxclose call[tpsmtalk] name[u0000001]
+[04/25 20:55:19] [pnoxd] pnox receive SIGCHLD signal
+[04/25 20:55:24] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13517]
+[04/25 20:55:24] [pxopen] bind errno[98][Address already in use]
+[04/25 20:55:26] [pnoxd] pnox receive SIGCHLD signal
+[04/25 20:55:29] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13518]
+[04/25 21:07:35] [pxmon] pxmon ipc rm
+[04/25 21:07:35] [pnoxd] pnox end
+[04/25 21:07:35] [pxclose] pxclose call[mtalk010] name[mtalk010]
+[04/25 21:07:37] [pnoxrtc] pnoxrtc end
+[04/25 21:07:37] [pxclose] pxclose call[] name[tpsmtalk]
+[04/25 21:07:37] [pxclose] pxclose call[] name[pnoxtpc]
+[04/25 21:07:37] [tpsmain] tpsmain end
+[04/25 21:07:37] [pnoxtpc] pnoxtpc end
+[04/25 21:07:39] [tpsmain] tpsmain child end
+[04/25 21:07:39] [pxclose] pxclose call[] name[u0000001]
+[04/25 21:07:39] [pnoxsca] pnoxsca exit pxid[2]
+[04/25 21:07:41] [pnoxtpc] pnoxtpc child end
+[04/25 21:07:47] [tpsmain] tpsmain child end
+[04/25 21:08:49] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/25 21:08:49] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/25 21:08:49] [pnoxd] pnoxd pid[13571]
+[04/25 21:08:49] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/25 21:08:49] [pxmon] pxmon create
+[04/25 21:08:49] [pnoxd] pxmon_init start
+[04/25 21:08:49] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/25 21:08:49] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/25 21:08:49] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/25 21:08:49] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/25 21:08:49] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:08:49] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:08:49] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[13572]
+[04/25 21:08:49] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[13573]
+[04/25 21:08:49] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[13574]
+[04/25 21:08:49] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[13575]
+[04/25 21:08:49] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13576]
+[04/25 21:08:49] [pnoxsgw] pnoxsgw start
+[04/25 21:08:49] [tpsmain] tpsmain start
+[04/25 21:08:49] [pnoxd] pxmon init [2020/04/25 21:08:49] nprc[5]
+[04/25 21:08:49] [pnoxtpc] pnoxtpc start
+[04/25 21:08:49] [pnoxrtc] pnoxrtc start
+[04/25 21:09:07] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:09:10] [pxclose] pxclose call[tpsmtalk] name[u0000001]
+[04/25 21:09:10] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:09:11] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:09:16] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13634]
+[04/25 21:09:16] [pxopen] bind errno[98][Address already in use]
+[04/25 21:09:18] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:09:21] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13635]
+[04/25 21:10:28] [pxclose] pxclose call[tpsmtalk] name[u0000002]
+[04/25 21:10:28] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:10:29] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:10:32] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13645]
+[04/25 21:10:32] [pxopen] bind errno[98][Address already in use]
+[04/25 21:10:34] [pxclose] pxclose call[tpsmtalk] name[u0000003]
+[04/25 21:10:34] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:10:34] [tpsmain] tpsmain error -15 2
+[04/25 21:10:34] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:10:37] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13647]
+[04/25 21:10:38] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:10:43] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13649]
+[04/25 21:10:43] [pxopen] bind errno[98][Address already in use]
+[04/25 21:10:45] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:10:48] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13650]
+[04/25 21:10:53] [pxclose] pxclose call[tpsmtalk] name[u0000004]
+[04/25 21:13:55] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:13:55] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000004]
+[04/25 21:13:55] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000004]
+[04/25 21:16:01] [pxmon] pxmon ipc rm
+[04/25 21:16:01] [pnoxd] pnox end
+[04/25 21:16:01] [pxclose] pxclose call[mtalk010] name[mtalk010]
+[04/25 21:16:04] [pnoxrtc] pnoxrtc end
+[04/25 21:16:04] [pxclose] pxclose call[] name[tpsmtalk]
+[04/25 21:16:04] [pxclose] pxclose call[] name[pnoxtpc]
+[04/25 21:16:04] [pnoxtpc] pnoxtpc end
+[04/25 21:16:04] [tpsmain] tpsmain end
+[04/25 21:16:05] [pnoxtpc] pnoxtpc child end
+[04/25 21:16:05] [tpsmain] tpsmain child end
+[04/25 21:16:06] [pnoxsca] pnoxsca pxid[0] error
+[04/25 21:16:06] [pnoxsca] pnoxsca exit pxid[5]
+[04/25 21:16:06] [tpsmain] tpsmain child end
+[04/25 21:16:17] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/25 21:16:17] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/25 21:16:17] [pnoxd] pnoxd pid[13722]
+[04/25 21:16:17] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/25 21:16:17] [pxmon] pxmon create
+[04/25 21:16:17] [pnoxd] pxmon_init start
+[04/25 21:16:17] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/25 21:16:17] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/25 21:16:17] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/25 21:16:17] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/25 21:16:17] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:16:17] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:16:17] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[13723]
+[04/25 21:16:17] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[13724]
+[04/25 21:16:17] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[13725]
+[04/25 21:16:17] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[13726]
+[04/25 21:16:17] [pnoxsgw] pnoxsgw start
+[04/25 21:16:17] [pnoxrtc] pnoxrtc start
+[04/25 21:16:17] [pnoxtpc] pnoxtpc start
+[04/25 21:16:17] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13727]
+[04/25 21:16:17] [pnoxd] pxmon init [2020/04/25 21:16:17] nprc[5]
+[04/25 21:16:17] [tpsmain] tpsmain start
+[04/25 21:16:36] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:16:44] [pxclose] pxclose call[tpsmtalk] name[u0000001]
+[04/25 21:16:44] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:16:45] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:16:48] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13736]
+[04/25 21:16:48] [pxopen] bind errno[98][Address already in use]
+[04/25 21:16:50] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:16:53] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13737]
+[04/25 21:16:57] [pxclose] pxclose call[tpsmtalk] name[u0000002]
+[04/25 21:30:40] [pxmon] pxmon ipc rm
+[04/25 21:30:40] [pnoxd] pnox end
+[04/25 21:30:41] [pnoxrtc] pnoxrtc end
+[04/25 21:30:41] [pxclose] pxclose call[] name[pnoxtpc]
+[04/25 21:30:41] [pxclose] pxclose call[] name[tpsmtalk]
+[04/25 21:30:41] [pnoxtpc] pnoxtpc end
+[04/25 21:30:41] [tpsmain] tpsmain end
+[04/25 21:30:42] [pxclose] pxclose call[mtalk010] name[mtalk010]
+[04/25 21:30:43] [pnoxtpc] pnoxtpc child end
+[04/25 21:30:45] [tpsmain] tpsmain child end
+[04/25 21:30:47] [tpsmain] tpsmain child end
+[04/25 21:30:53] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/25 21:30:53] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/25 21:30:53] [pnoxd] pnoxd pid[13803]
+[04/25 21:30:53] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/25 21:30:53] [pxmon] pxmon create
+[04/25 21:30:53] [pnoxd] pxmon_init start
+[04/25 21:30:53] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/25 21:30:53] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/25 21:30:53] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/25 21:30:53] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/25 21:30:53] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:30:53] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:30:53] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[13804]
+[04/25 21:30:53] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[13805]
+[04/25 21:30:53] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[13806]
+[04/25 21:30:53] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[13807]
+[04/25 21:30:53] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13808]
+[04/25 21:30:53] [pnoxtpc] pnoxtpc start
+[04/25 21:30:53] [pnoxrtc] pnoxrtc start
+[04/25 21:30:53] [pnoxd] pxmon init [2020/04/25 21:30:53] nprc[5]
+[04/25 21:30:53] [pnoxsgw] pnoxsgw start
+[04/25 21:30:53] [tpsmain] tpsmain start
+[04/25 21:31:09] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:31:22] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:31:22] [pxclose] pxclose call[tpsmtalk] name[u0000001]
+[04/25 21:31:23] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:31:26] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13816]
+[04/25 21:31:26] [pxopen] bind errno[98][Address already in use]
+[04/25 21:31:28] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:31:31] [pxclose] pxclose call[tpsmtalk] name[u0000002]
+[04/25 21:31:31] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13817]
+[04/25 21:33:38] [pxmon] pxmon ipc rm
+[04/25 21:33:38] [pnoxd] pnox end
+[04/25 21:33:39] [pxclose] pxclose call[mtalk010] name[mtalk010]
+[04/25 21:33:41] [pxclose] pxclose call[] name[pnoxtpc]
+[04/25 21:33:41] [pnoxtpc] pnoxtpc end
+[04/25 21:33:41] [pnoxrtc] pnoxrtc end
+[04/25 21:33:41] [pxclose] pxclose call[] name[tpsmtalk]
+[04/25 21:33:41] [tpsmain] tpsmain end
+[04/25 21:33:42] [tpsmain] tpsmain child end
+[04/25 21:33:43] [pnoxtpc] pnoxtpc child end
+[04/25 21:33:47] [tpsmain] tpsmain child end
+[04/25 21:33:59] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/25 21:33:59] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/25 21:33:59] [pnoxd] pnoxd pid[13909]
+[04/25 21:33:59] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/25 21:33:59] [pxmon] pxmon create
+[04/25 21:33:59] [pnoxd] pxmon_init start
+[04/25 21:33:59] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/25 21:33:59] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/25 21:33:59] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/25 21:33:59] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/25 21:33:59] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:33:59] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:33:59] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[13910]
+[04/25 21:33:59] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[13911]
+[04/25 21:33:59] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[13912]
+[04/25 21:33:59] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[13913]
+[04/25 21:33:59] [pnoxtpc] pnoxtpc start
+[04/25 21:33:59] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13914]
+[04/25 21:33:59] [pnoxd] pxmon init [2020/04/25 21:33:59] nprc[5]
+[04/25 21:33:59] [pnoxrtc] pnoxrtc start
+[04/25 21:33:59] [pnoxsgw] pnoxsgw start
+[04/25 21:33:59] [tpsmain] tpsmain start
+[04/25 21:34:15] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:34:33] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:34:33] [pxclose] pxclose call[tpsmtalk] name[u0000001]
+[04/25 21:34:34] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:34:37] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13922]
+[04/25 21:34:37] [pxopen] bind errno[98][Address already in use]
+[04/25 21:34:39] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:34:42] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13923]
+[04/25 21:35:51] [pxmon] pxmon ipc rm
+[04/25 21:35:51] [pnoxd] pnox end
+[04/25 21:35:52] [pxclose] pxclose call[mtalk010] name[mtalk010]
+[04/25 21:35:53] [pxclose] pxclose call[] name[pnoxtpc]
+[04/25 21:35:53] [pnoxtpc] pnoxtpc end
+[04/25 21:35:53] [pnoxrtc] pnoxrtc end
+[04/25 21:35:53] [pxclose] pxclose call[] name[tpsmtalk]
+[04/25 21:35:53] [tpsmain] tpsmain end
+[04/25 21:35:53] [pxclose] pxclose call[] name[u0000001]
+[04/25 21:35:53] [pnoxsca] pnoxsca exit pxid[2]
+[04/25 21:35:53] [tpsmain] tpsmain child end
+[04/25 21:35:54] [pnoxtpc] pnoxtpc child end
+[04/25 21:35:56] [tpsmain] tpsmain child end
+[04/25 21:36:02] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/25 21:36:02] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/25 21:36:02] [pnoxd] pnoxd pid[13968]
+[04/25 21:36:02] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/25 21:36:02] [pxmon] pxmon create
+[04/25 21:36:02] [pnoxd] pxmon_init start
+[04/25 21:36:02] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/25 21:36:02] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/25 21:36:02] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/25 21:36:02] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/25 21:36:02] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:36:02] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:36:02] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[13969]
+[04/25 21:36:02] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[13970]
+[04/25 21:36:02] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[13971]
+[04/25 21:36:02] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[13972]
+[04/25 21:36:02] [pnoxrtc] pnoxrtc start
+[04/25 21:36:02] [tpsmain] tpsmain start
+[04/25 21:36:02] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13973]
+[04/25 21:36:02] [pnoxd] pxmon init [2020/04/25 21:36:02] nprc[5]
+[04/25 21:36:02] [pnoxtpc] pnoxtpc start
+[04/25 21:36:02] [pnoxsgw] pnoxsgw start
+[04/25 21:36:22] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:36:34] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:36:34] [pxclose] pxclose call[tpsmtalk] name[u0000001]
+[04/25 21:36:35] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:36:38] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13982]
+[04/25 21:36:38] [pxopen] bind errno[98][Address already in use]
+[04/25 21:36:40] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:36:41] [pxclose] pxclose call[tpsmtalk] name[u0000002]
+[04/25 21:36:43] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[13983]
+[04/25 21:36:55] [pxmon] pxmon ipc rm
+[04/25 21:36:55] [pnoxd] pnox end
+[04/25 21:36:55] [pxclose] pxclose call[mtalk010] name[mtalk010]
+[04/25 21:36:56] [pnoxrtc] pnoxrtc end
+[04/25 21:36:56] [pxclose] pxclose call[] name[tpsmtalk]
+[04/25 21:36:56] [tpsmain] tpsmain end
+[04/25 21:36:56] [pxclose] pxclose call[] name[pnoxtpc]
+[04/25 21:36:56] [pnoxtpc] pnoxtpc end
+[04/25 21:36:57] [pnoxtpc] pnoxtpc child end
+[04/25 21:37:00] [tpsmain] tpsmain child end
+[04/25 21:37:04] [tpsmain] tpsmain child end
+[04/25 21:37:59] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/25 21:37:59] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/25 21:37:59] [pnoxd] pnoxd pid[14013]
+[04/25 21:37:59] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/25 21:37:59] [pxmon] pxmon create
+[04/25 21:37:59] [pnoxd] pxmon_init start
+[04/25 21:37:59] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/25 21:37:59] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/25 21:37:59] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/25 21:37:59] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/25 21:37:59] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:37:59] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:37:59] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[14014]
+[04/25 21:37:59] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[14015]
+[04/25 21:37:59] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[14016]
+[04/25 21:37:59] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[14017]
+[04/25 21:37:59] [pnoxtpc] pnoxtpc start
+[04/25 21:37:59] [tpsmain] tpsmain start
+[04/25 21:37:59] [pnoxsgw] pnoxsgw start
+[04/25 21:37:59] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[14018]
+[04/25 21:37:59] [pnoxd] pxmon init [2020/04/25 21:37:59] nprc[5]
+[04/25 21:37:59] [pnoxrtc] pnoxrtc start
+[04/25 21:38:11] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:38:28] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:38:28] [pxclose] pxclose call[tpsmtalk] name[u0000001]
+[04/25 21:38:28] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:38:31] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[14026]
+[04/25 21:38:31] [pxopen] bind errno[98][Address already in use]
+[04/25 21:38:33] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:38:36] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[14027]
+[04/25 21:38:38] [pxclose] pxclose call[tpsmtalk] name[u0000002]
+[04/25 21:38:43] [pxmon] pxmon ipc rm
+[04/25 21:38:43] [pnoxd] pnox end
+[04/25 21:38:44] [pxclose] pxclose call[] name[pnoxtpc]
+[04/25 21:38:44] [pxclose] pxclose call[] name[tpsmtalk]
+[04/25 21:38:44] [tpsmain] tpsmain end
+[04/25 21:38:44] [pnoxtpc] pnoxtpc end
+[04/25 21:38:44] [pnoxrtc] pnoxrtc end
+[04/25 21:38:44] [pnoxtpc] pnoxtpc child end
+[04/25 21:38:44] [pxclose] pxclose call[mtalk010] name[mtalk010]
+[04/25 21:38:48] [tpsmain] tpsmain child end
+[04/25 21:38:49] [tpsmain] tpsmain child end
+[04/25 21:39:39] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/25 21:39:39] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/25 21:39:39] [pnoxd] pnoxd pid[14106]
+[04/25 21:39:39] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/25 21:39:39] [pxmon] pxmon create
+[04/25 21:39:39] [pnoxd] pxmon_init start
+[04/25 21:39:39] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/25 21:39:39] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/25 21:39:39] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/25 21:39:39] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/25 21:39:39] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:39:39] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:39:39] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[14107]
+[04/25 21:39:39] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[14108]
+[04/25 21:39:39] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[14109]
+[04/25 21:39:39] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[14110]
+[04/25 21:39:39] [pnoxsgw] pnoxsgw start
+[04/25 21:39:39] [pnoxrtc] pnoxrtc start
+[04/25 21:39:39] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[14111]
+[04/25 21:39:39] [pnoxd] pxmon init [2020/04/25 21:39:39] nprc[5]
+[04/25 21:39:39] [pnoxtpc] pnoxtpc start
+[04/25 21:39:39] [tpsmain] tpsmain start
+[04/25 21:39:48] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:39:51] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:39:51] [pxclose] pxclose call[tpsmtalk] name[u0000001]
+[04/25 21:39:51] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:39:54] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[14119]
+[04/25 21:39:54] [pxopen] bind errno[98][Address already in use]
+[04/25 21:39:56] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:39:59] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[14120]
+[04/25 21:43:33] [pxmon] pxmon ipc rm
+[04/25 21:43:33] [pnoxd] pnox end
+[04/25 21:43:33] [pnoxrtc] pnoxrtc end
+[04/25 21:43:33] [pxclose] pxclose call[] name[pnoxtpc]
+[04/25 21:43:33] [pnoxtpc] pnoxtpc end
+[04/25 21:43:33] [pxclose] pxclose call[] name[tpsmtalk]
+[04/25 21:43:33] [tpsmain] tpsmain end
+[04/25 21:43:33] [pxclose] pxclose call[mtalk010] name[mtalk010]
+[04/25 21:43:35] [pnoxtpc] pnoxtpc child end
+[04/25 21:43:36] [pxclose] pxclose call[] name[u0000001]
+[04/25 21:43:36] [pnoxsca] pnoxsca exit pxid[2]
+[04/25 21:43:39] [tpsmain] tpsmain child end
+[04/25 21:43:41] [tpsmain] tpsmain child end
+[04/25 21:45:57] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/25 21:45:57] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/25 21:45:57] [pnoxd] pnoxd pid[14153]
+[04/25 21:45:57] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/25 21:45:58] [pxmon] pxmon create
+[04/25 21:45:58] [pnoxd] pxmon_init start
+[04/25 21:45:58] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/25 21:45:58] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/25 21:45:58] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/25 21:45:58] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/25 21:45:58] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:45:58] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:45:58] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[14154]
+[04/25 21:45:58] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[14155]
+[04/25 21:45:58] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[14156]
+[04/25 21:45:58] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[14157]
+[04/25 21:45:58] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[14158]
+[04/25 21:45:58] [pnoxsgw] pnoxsgw start
+[04/25 21:45:58] [pnoxd] pxmon init [2020/04/25 21:45:58] nprc[5]
+[04/25 21:45:58] [tpsmain] tpsmain start
+[04/25 21:45:58] [pnoxrtc] pnoxrtc start
+[04/25 21:45:58] [pnoxtpc] pnoxtpc start
+[04/25 21:46:15] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:46:20] [pxclose] pxclose call[tpsmtalk] name[u0000001]
+[04/25 21:46:20] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:46:21] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:46:24] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[14166]
+[04/25 21:46:24] [pxopen] bind errno[98][Address already in use]
+[04/25 21:46:26] [pnoxd] pnox receive SIGCHLD signal
+[04/25 21:46:29] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[14167]
+[04/25 21:46:31] [pxmon] pxmon ipc rm
+[04/25 21:46:31] [pnoxd] pnox end
+[04/25 21:46:33] [pxclose] pxclose call[mtalk010] name[mtalk010]
+[04/25 21:46:34] [pnoxrtc] pnoxrtc end
+[04/25 21:46:34] [pxclose] pxclose call[] name[pnoxtpc]
+[04/25 21:46:34] [pxclose] pxclose call[] name[tpsmtalk]
+[04/25 21:46:34] [pnoxtpc] pnoxtpc end
+[04/25 21:46:34] [tpsmain] tpsmain end
+[04/25 21:46:35] [pxclose] pxclose call[] name[u0000001]
+[04/25 21:46:35] [pnoxsca] pnoxsca exit pxid[2]
+[04/25 21:46:38] [pnoxtpc] pnoxtpc child end
+[04/25 21:46:40] [tpsmain] tpsmain child end
+[04/25 21:46:43] [tpsmain] tpsmain child end
+[04/25 21:50:20] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/25 21:50:20] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/25 21:50:20] [pnoxd] pnoxd pid[14199]
+[04/25 21:50:20] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/25 21:50:20] [pxmon] pxmon create
+[04/25 21:50:20] [pnoxd] pxmon_init start
+[04/25 21:50:20] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/25 21:50:20] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/25 21:50:20] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/25 21:50:20] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/25 21:50:20] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:50:20] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:50:20] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[14200]
+[04/25 21:50:20] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[14201]
+[04/25 21:50:20] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[14202]
+[04/25 21:50:20] [pnoxsgw] pnoxsgw start
+[04/25 21:50:20] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[14203]
+[04/25 21:50:20] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[14204]
+[04/25 21:50:20] [pnoxrtc] pnoxrtc start
+[04/25 21:50:20] [pnoxd] pxmon init [2020/04/25 21:50:20] nprc[5]
+[04/25 21:50:20] [tpsmain] tpsmain start
+[04/25 21:50:20] [pnoxtpc] pnoxtpc start
+[04/25 21:50:36] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:50:40] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000000]
+[04/25 21:50:40] [pxclose] pxclose call[tpsmtalk] name[u0000001]
+[04/25 21:50:40] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:50:40] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000001]
+[04/25 21:50:40] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000001]
+[04/25 21:50:41] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000001]
+[04/25 21:50:41] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:50:41] [pxclose] pxclose call[tpsmtalk] name[u0000002]
+[04/25 21:50:53] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000002]
+[04/25 21:50:53] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:50:53] [pxclose] pxclose call[tpsmtalk] name[u0000003]
+[04/25 21:50:53] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000003]
+[04/25 21:50:53] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000003]
+[04/25 21:50:58] [pxclose] pxclose call[mtalk010] name[u0000004]
+[04/25 21:51:10] [pxmon] pxmon ipc rm
+[04/25 21:51:10] [pnoxd] pnox end
+[04/25 21:51:11] [pxclose] pxclose call[mtalk010] name[mtalk010]
+[04/25 21:51:11] [pnoxrtc] pnoxrtc end
+[04/25 21:51:11] [pxclose] pxclose call[] name[pnoxtpc]
+[04/25 21:51:11] [pnoxtpc] pnoxtpc end
+[04/25 21:51:11] [pxclose] pxclose call[] name[tpsmtalk]
+[04/25 21:51:11] [tpsmain] tpsmain end
+[04/25 21:51:13] [tpsmain] tpsmain child end
+[04/25 21:51:15] [pnoxtpc] pnoxtpc child end
+[04/25 21:51:20] [tpsmain] tpsmain child end
+[04/25 21:52:46] [pnoxd] /proj/pnox/pf pnox system loading...
+[04/25 21:52:46] [pnoxd] pnoxd PNOX_HOME[/proj/pnox/pf]
+[04/25 21:52:46] [pnoxd] pnoxd pid[14244]
+[04/25 21:52:46] [pnoxd] [/proj/pnox/pf/ipc/PXIPC]
+[04/25 21:52:46] [pxmon] pxmon create
+[04/25 21:52:46] [pnoxd] pxmon_init start
+[04/25 21:52:46] [pnoxd] pxmon home[/proj/pnox/pf]
+[04/25 21:52:46] [pnoxd] pxmon [0] proc[pnoxsgw] path[/proj/pnox/pf/bin/pnoxsgw] resident[1]
+[04/25 21:52:46] [pnoxd] pxmon [1] proc[pnoxtpc] path[/proj/pnox/pf/bin/pnoxtpc] resident[1]
+[04/25 21:52:46] [pnoxd] pxmon [2] proc[pnoxrtc] path[/proj/pnox/pf/bin/pnoxrtc] resident[1]
+[04/25 21:52:46] [pnoxd] pxmon [3] proc[tpsmtalk] path[/proj/pnox/app/bin/tpsmtalk] [1][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:52:46] [pnoxd] pxmon [4] proc[mtalk010] path[/proj/pnox/app/bin/mtalk010] [0][-m2][NONE][NONE] resident[1] rout[]
+[04/25 21:52:46] [pnoxd] exec[/proj/pnox/pf/bin/pnoxsgw] pid[14245]
+[04/25 21:52:46] [pnoxd] exec[/proj/pnox/pf/bin/pnoxtpc] pid[14246]
+[04/25 21:52:46] [pnoxd] exec[/proj/pnox/pf/bin/pnoxrtc] pid[14247]
+[04/25 21:52:46] [pnoxd] exec[/proj/pnox/app/bin/tpsmtalk] pid[14248]
+[04/25 21:52:46] [pnoxd] exec[/proj/pnox/app/bin/mtalk010] pid[14249]
+[04/25 21:52:46] [pnoxrtc] pnoxrtc start
+[04/25 21:52:46] [pnoxd] pxmon init [2020/04/25 21:52:46] nprc[5]
+[04/25 21:52:46] [tpsmain] tpsmain start
+[04/25 21:52:46] [pnoxsgw] pnoxsgw start
+[04/25 21:52:46] [pnoxtpc] pnoxtpc start
+[04/25 21:52:56] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:52:58] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000000]
+[04/25 21:52:58] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:52:58] [pxclose] pxclose call[tpsmtalk] name[u0000001]
+[04/25 21:52:58] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000001]
+[04/25 21:52:58] [pxsend] _pxsend error retc[-7][/proj/pnox/pf/que/u0000001]
+[04/25 21:53:01] [pxclose] pxclose call[mtalk010] name[u0000002]
+[04/25 21:53:30] [pnoxsgw] pnoxsgw exec_sca start
+[04/25 21:53:48] [pxmon] pxmon ipc rm
+[04/25 21:53:48] [pnoxd] pnox end
+[04/25 21:53:49] [pnoxrtc] pnoxrtc end
+[04/25 21:53:49] [pxclose] pxclose call[] name[tpsmtalk]
+[04/25 21:53:49] [pxclose] pxclose call[] name[pnoxtpc]
+[04/25 21:53:49] [tpsmain] tpsmain end
+[04/25 21:53:49] [pnoxtpc] pnoxtpc end
+[04/25 21:53:50] [pxclose] pxclose call[mtalk010] name[mtalk010]
+[04/25 21:53:50] [pnoxsca] pnoxsca pxid[0] error
+[04/25 21:53:50] [pnoxsca] pnoxsca exit pxid[3]
+[04/25 21:53:51] [tpsmain] tpsmain child end
+[04/25 21:53:51] [pnoxtpc] pnoxtpc child end
+[04/25 21:53:56] [tpsmain] tpsmain child end

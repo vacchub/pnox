@@ -1,0 +1,473 @@
+mtalk010 start
+mtalk010 type j [0][j 1]
+mtalk010 type q
+mtalk010 start
+mtalk010 pxopen error -8 Address already in use
+mtalk010 start
+mtalk010 type j [0][j 2]
+mtalk010 getppid
+mtalk010 start
+mtalk010 type j [0][j 1]
+mtalk010 type q
+mtalk010 start
+mtalk010 pxopen error -8 Address already in use
+mtalk010 start
+mtalk010 type j [0][j 2]
+mtalk010 getppid
+mtalk010 start
+mtalk010 type j [0][j 1]
+mtalk010 type q
+mtalk010 start
+mtalk010 pxopen error -8 Address already in use
+mtalk010 start
+mtalk010 type j [0][j 2]
+mtalk010 getppid
+mtalk010 start
+mtalk010 type j [0][j 1]
+mtalk010 type q
+mtalk010 start
+mtalk010 pxopen error -8 Address already in use
+mtalk010 start
+mtalk010 type j [0][j 2]
+mtalk010 getppid
+mtalk010 start
+mtalk010 type j [0][j 1]
+mtalk010 type q
+mtalk010 start
+mtalk010 pxopen error -8 Address already in use
+mtalk010 start
+mtalk010 type j [0][j 2]
+mtalk010 type q
+mtalk010 start
+mtalk010 pxopen error -8 Address already in use
+mtalk010 start
+mtalk010 type j [0][j 3]
+mtalk010 type q
+mtalk010 start
+mtalk010 pxopen error -8 Address already in use
+mtalk010 start
+mtalk010 type j [0][j 4]
+mtalk010 type j [1][j 5]
+mtalk010 l_mtaddr pxid=[4][5]
+mtalk010 pxsend error[-7]
+mtalk010 getppid
+mtalk010 start
+mtalk010 type j [0][j 1]
+mtalk010 type q
+mtalk010 start
+mtalk010 pxopen error -8 Address already in use
+mtalk010 start
+mtalk010 type j [0][j 2]
+mtalk010 getppid
+mtalk010 start
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+mtalk010 type j [0][j 1]
+3
+1
+1
+1
+1
+1
+1
+1
+2
+mtalk010 type q
+mtalk010 start
+mtalk010 pxopen error -8 Address already in use
+mtalk010 start
+1
+2
+mtalk010 type j [0][j 2]
+3
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+mtalk010 getppid
+mtalk010 start
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+mtalk010 type j [0][j 1]
+mtalk010 error 3 [0]
+4
+5
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+mtalk010 type q
+mtalk010 start
+mtalk010 pxopen error -8 Address already in use
+mtalk010 start
+1
+2
+mtalk010 type j [0][j 2]
+mtalk010 error 3 [0]
+4
+5
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+mtalk010 getppid
+mtalk010 start
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+mtalk010 type j [0][j 1]
+mtalk010 error 3 [0]
+4
+5
+1
+1
+1
+1
+1
+1
+2
+mtalk010 type q
+mtalk010 start
+mtalk010 pxopen error -8 Address already in use
+mtalk010 start
+1
+2
+mtalk010 type j [0][j 2]
+mtalk010 error 3 [0]
+4
+5
+1
+1
+1
+1
+1
+1
+1
+mtalk010 getppid
+mtalk010 start
+1
+1
+1
+1
+1
+1
+1
+2
+mtalk010 type j [0][j 1]
+mtalk010 error 3 [0]
+4
+5
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+mtalk010 type q
+mtalk010 start
+mtalk010 pxopen error -8 Address already in use
+mtalk010 start
+1
+2
+mtalk010 type j [0][j 2]
+mtalk010 error 3 [0]
+4
+5
+1
+1
+1
+1
+1
+mtalk010 getppid
+mtalk010 start
+1
+1
+1
+1
+1
+2 @@ [j]
+mtalk010 type j [0][j 1]
+mtalk010 error 3 [0]
+4
+5
+1
+1
+2 @@ [q]
+mtalk010 type q
+mtalk010 start
+mtalk010 pxopen error -8 Address already in use
+mtalk010 start
+1
+2 @@ [j]
+mtalk010 type j [0][j 2]
+mtalk010 error 3 [0]
+4
+5
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+mtalk010 getppid
+mtalk010 start
+2 @@ [j]
+mtalk010 type j [0][j 1]
+mtalk010 error 3 [0]
+4
+5
+2 @@ [q]
+mtalk010 type q-1
+mtalk010 type q-2
+mtalk010 start
+mtalk010 pxopen error -8 Address already in use
+mtalk010 start
+2 @@ [j]
+mtalk010 type j [0][j 2]
+mtalk010 error 3 [0]
+4
+5
+mtalk010 getppid
+mtalk010 start
+mtalk010 type q-1
+mtalk010 type q-2
+mtalk010 error 1
+mtalk010 type q-1
+mtalk010 type q-2
+mtalk010 error 1
+mtalk010 type q-1
+mtalk010 type q-2
+mtalk010 error 1
+mtalk010 start
+mtalk010 start
+mtalk010 start

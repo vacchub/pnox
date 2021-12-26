@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+#include <pthread.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include "pnoxcli.h"
+
+#if 1
+#define	G_IPAD	"180.224.8.33"
+#else
+#define	G_IPAD	"192.168.219.9"
+#endif
+#define	G_PORT	18311
+
+
+int	main(argc, argv) 
+int	argc;
+char	*argv[];
+{
+	struct	pnoxhdr *pnoxhdr;
+	struct  sockaddr_in sockaddr;
+	pthread_t 	tid[2];
+	char	*ipad;
+	int	sock;
+	int	rc, argl;
+	char	rcvb[64*1024], sndb[16*1024];
+	int	rcvl, sndl;
+
+	sock = pxconnect(G_IPAD, G_PORT);
+	if (sock < 0)
+	{
+		printf("pxconnect error\n");
+		return(-1);
+	}
+
+	memset(sndb, 0x00, sizeof(sndb));
+	memset(sndb, 0x20, sizeof(struct pnoxhdr) - 1);
+	pnoxhdr = (struct pnoxhdr *)sndb;
+	pnoxhdr->chkf[0] = 0x7F;
+	pnoxhdr->chkf[1] = 0x7F;
+	memcpy(pnoxhdr->trnm, "test0001", 8);
+	sprintf(pnoxhdr->dlen, "%05d", 6);
+	memcpy(&pnoxhdr->data[0], "abcdef", 6);
+/* test	*/
+{
+write(sock, sndb, strlen(sndb));
+sleep(10);
+}
+
+
+	close(sock);
+	return(0);
+}
